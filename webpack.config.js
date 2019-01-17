@@ -9,7 +9,6 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = () => {
   dotenv.config();
-  console.log(process.env);
   const envKeys = {
     GOOGLE_MAPS_API_KEY: JSON.stringify(process.env.GOOGLE_MAPS_API_KEY),
     BACKEND_URL: JSON.stringify(process.env.BACKEND_URL),
