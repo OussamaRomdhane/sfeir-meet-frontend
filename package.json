@@ -6,7 +6,7 @@
     "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
     "build": "./node_modules/webpack/bin/webpack.js -p --progress",
     "start:dev": "webpack-dev-server --mode development --open --hot",
-    "test": "jest --coverage",
+    "test": "./node_modules/.bin/jest --coverage",
     "prettier": "prettier --write src/**/*.js"
   },
   "author": "Oussama Romdhane",
