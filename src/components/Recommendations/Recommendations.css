@@ -1,0 +1,27 @@
+.-pageSizeOptions {
+  display: none !important;
+}
+.-center {
+  display: none !important;
+}
+.rt-thead.-header {
+  display: none !important;
+}
+.rating-p {
+  cursor: pointer;
+}
+.rating-p > div {
+  display: inline-block;
+}
+.rating-p > span {
+  display: inline-block;
+  margin-left: 5px;
+  color: #767676;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.business-name-p {
+  color: #767676;
+  font-weight: bold;
+}
