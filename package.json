@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A React boilerplate",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production",
-    "test": "jest --coverage",
-    "prettier": "prettier --write src/**/*.js"
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --mode development --open --hot",
+    "build": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --mode production",
+    "test": "./node_modules/jest/bin/jest.js --coverage",
+    "prettier": "./node_modules/prettier/bin/prettier.js --write src/**/*.js"
   },
   "author": "Oussama Romdhane",
   "license": "MIT",
@@ -44,12 +44,12 @@
     "enzyme-adapter-react-16": "^1.7.1",
     "enzyme-to-json": "^3.3.5",
     "html-webpack-plugin": "^3.2.0",
-    "jest": "^23.6.0",
-    "prettier": "^1.15.3",
+    "jest": "23.6.0",
+    "prettier": "1.15.3",
     "style-loader": "^0.23.1",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "3.1.14"
   },
   "repository": {
     "type": "git",
