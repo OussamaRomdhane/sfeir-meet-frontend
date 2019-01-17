@@ -1,12 +1,12 @@
 {
-  "name": "react-app-boilerplate",
+  "name": "sfeir-meet-front",
   "version": "1.0.0",
   "description": "A React boilerplate",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --mode development --open --hot",
-    "build": "./node_modules/.bin/webpack --mode production",
-    "test": "./node_modules/.bin/jest --coverage",
-    "prettier": "./node_modules/.bin/prettier --write src/**/*.js"
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "test": "jest --coverage",
+    "prettier": "prettier --write src/**/*.js"
   },
   "author": "Oussama Romdhane",
   "license": "MIT",
