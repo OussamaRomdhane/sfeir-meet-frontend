@@ -5,9 +5,11 @@ npm-debug.log*
 # istanbul
 coverage
 
-/node_modules/
-/.vscode/
-/dist/
+/node_modules/*
+/.vscode/*
+/dist/*
+
+!dist/favicon.ico
 
 .DS_Store
 
