@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A React boilerplate",
   "scripts": {
+    "heroku-prebuild": "npm install --only=dev",
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --mode development --open --hot",
     "build": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --mode production",
     "test": "./node_modules/jest/bin/jest.js --coverage",
