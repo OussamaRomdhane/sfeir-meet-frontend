@@ -16,7 +16,7 @@ app.use(function(err, req, res, next) {
 });
 
 app.get('*', function(req, res) {
-  res.sendfile(path.join(__dirname, '../app/index.html'));
+  res.sendfile(path.join(assetsPath, 'index.html'));
 });
 
 app.listen(process.env.PORT, () => {
