@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "A React boilerplate",
   "scripts": {
-    "start": "node server.js",
+    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
     "start:dev": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack",
-    "test": "jest --coverage",
+    "test": "./node_modules/jest/bin/jest.js --coverage",
     "prettier": "prettier --write src/**/*.js"
   },
   "author": "Oussama Romdhane",
