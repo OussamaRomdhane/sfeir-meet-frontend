@@ -4,10 +4,11 @@
   "description": "A React boilerplate",
   "scripts": {
     "heroku-prebuild": "npm install --only=dev",
-    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server --mode development --open --hot",
-    "build": "./node_modules/webpack-dev-server/bin/webpack-dev-server --mode production",
-    "test": "./node_modules/jest/bin/jest --coverage",
-    "prettier": "./node_modules/prettier/bin/prettier --write src/**/*.js"
+    "start": "./node_modules/.bin/webpack",
+    "start:dev": "./node_modules/.bin/webpack-dev-server --mode development --open --hot",
+    "build": "./node_modules/.bin/webpack-dev-server --mode production",
+    "test": "./node_modules/.bin/jest --coverage",
+    "prettier": "./node_modules/.bin/prettier --write src/**/*.js"
   },
   "author": "Oussama Romdhane",
   "license": "MIT",
@@ -48,7 +49,7 @@
     "jest": "23.6.0",
     "prettier": "1.15.3",
     "style-loader": "^0.23.1",
-    "webpack": "^4.27.1",
+    "webpack": "4.28.4",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "3.1.14"
   },
