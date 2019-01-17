@@ -1,0 +1,21 @@
+.button.add-button {
+  width: 100%;
+  outline: none;
+}
+
+.add-button:hover {
+  background-color: #767676;
+}
+
+.button {
+  outline: none;
+}
+
+h1.title {
+  text-align: center;
+  color: #005691;
+}
+
+h1.title small {
+  color: #ed5300;
+}
