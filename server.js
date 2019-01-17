@@ -17,4 +17,3 @@ app.listen(port);
 
 const dirTree = require('directory-tree');
 console.log(JSON.stringify(dirTree(path.join(__dirname, 'dist'))));
-console.log(JSON.stringify(dirTree(__dirname)));
