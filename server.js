@@ -6,7 +6,7 @@ const
 
 require('dotenv').config();
 
-const assetsPath = path.join(process.cwd(), '/dist');
+const assetsPath = path.join(__dirname, '../app/dist');
 
 app.use(express.static(assetsPath));
 
