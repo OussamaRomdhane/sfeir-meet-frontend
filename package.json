@@ -4,10 +4,10 @@
   "description": "A React boilerplate",
   "scripts": {
     "start": "node server.js",
-    "start:dev": "./node_modules/.bin/webpack-dev-server --mode development --open --hot",
-    "build": "./node_modules/.bin/webpack",
-    "test": "./node_modules/.bin/jest --coverage",
-    "prettier": "./node_modules/.bin/prettier --write src/**/*.js"
+    "start:dev": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack",
+    "test": "jest --coverage",
+    "prettier": "prettier --write src/**/*.js"
   },
   "author": "Oussama Romdhane",
   "license": "MIT",
