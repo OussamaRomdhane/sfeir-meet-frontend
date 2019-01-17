@@ -4,8 +4,7 @@
   "description": "A React boilerplate",
   "scripts": {
     "heroku-prebuild": "npm install --only=dev",
-    "start": "./node_modules/.bin/webpack",
-    "start:dev": "./node_modules/webpack-dev-server --mode development --open --hot",
+    "start": "./node_modules/webpack-dev-server --mode development --open --hot",
     "build": "./node_modules/webpack-dev-server --mode production",
     "test": "./node_modules/jest --coverage",
     "prettier": "./node_modules/prettier --write src/**/*.js"
