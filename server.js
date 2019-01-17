@@ -9,5 +9,4 @@ app.use(express.static('dist'));
 
 app.listen(process.env.PORT, () => {
   console.info('Server started at port ', process.env.PORT);
-  console.info('Assets hosted at ', assetsPath);
 });
