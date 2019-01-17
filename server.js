@@ -1,11 +1,12 @@
 // prettier-ignore
 const
+    path    = require('path'),
     express = require('express'),
     app     = express();
 
 require('dotenv').config();
 
-const assetsPath = __dirname + '/dist';
+const assetsPath = path.join(process.cwd(), '/dist');
 
 app.use(express.static(assetsPath));
 
