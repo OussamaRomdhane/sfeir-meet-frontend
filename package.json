@@ -5,10 +5,10 @@
   "scripts": {
     "heroku-prebuild": "npm install --only=dev",
     "start": "./node_modules/.bin/webpack",
-    "start:dev": "./node_modules/.bin/webpack-dev-server --mode development --open --hot",
-    "build": "./node_modules/.bin/webpack-dev-server --mode production",
-    "test": "./node_modules/.bin/jest --coverage",
-    "prettier": "./node_modules/.bin/prettier --write src/**/*.js"
+    "start:dev": "./node_modules/webpack-dev-server --mode development --open --hot",
+    "build": "./node_modules/webpack-dev-server --mode production",
+    "test": "./node_modules/jest --coverage",
+    "prettier": "./node_modules/prettier --write src/**/*.js"
   },
   "author": "Oussama Romdhane",
   "license": "MIT",
@@ -31,7 +31,8 @@
     "redux": "^4.0.1",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "url-loader": "^1.1.2"
+    "url-loader": "^1.1.2",
+    "webpack": "4.28.4"
   },
   "devDependencies": {
     "@babel/core": "^7.2.0",
@@ -49,7 +50,6 @@
     "jest": "23.6.0",
     "prettier": "1.15.3",
     "style-loader": "^0.23.1",
-    "webpack": "4.28.4",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "3.1.14"
   },
