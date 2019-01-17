@@ -5,10 +5,10 @@
   "scripts": {
     "heroku-prebuild": "npm install --only=dev",
     "start": "node server.js",
-    "start:dev": "./node_modules/webpack-dev-server --mode development --open --hot",
-    "build": "./node_modules/webpack-dev-server --mode production",
-    "test": "./node_modules/jest --coverage",
-    "prettier": "./node_modules/prettier --write src/**/*.js"
+    "start:dev": "./node_modules/.bin/webpack-dev-server --mode development --open --hot",
+    "build": "./node_modules/.bin/webpack-dev-server --mode production",
+    "test": "./node_modules/.bin/jest --coverage",
+    "prettier": "./node_modules/.bin/prettier --write src/**/*.js"
   },
   "author": "Oussama Romdhane",
   "license": "MIT",
