@@ -1,6 +1,4 @@
-import * as express from 'express';
-
-const app = express();
+const app = require('express')();
 
 app.use(express.static(__dirname + '/dist'));
 
