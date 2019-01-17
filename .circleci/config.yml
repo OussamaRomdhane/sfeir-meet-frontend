@@ -18,6 +18,12 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install dependencies
+          command: 'sudo npm install'
+      - run:
+          name: Build App
+          command: 'sudo npm run build'
+      - run:
           name: Test
           command: npm test
 
